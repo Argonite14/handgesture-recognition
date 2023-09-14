@@ -51,12 +51,12 @@ Python: You need Python installed on your system. You can download Python from t
 
 Python Libraries: You will need several Python libraries, including TensorFlow, Keras, OpenCV, cvzone, Pillow (PIL), and NumPy. You can install them using pip, Python's package manager. Open your terminal/command prompt and run:
 
-bash
-Copy code
-pip install tensorflow keras opencv-python-headless cvzone pillow numpy
+
+'''pip install tensorflow keras opencv-python-headless pillow numpy'''
+
 If you encounter any issues while installing these libraries, you might need to install additional dependencies based on your operating system.
 
-Pre-trained Model: You need a pre-trained model file (in this case, 'my_model.h5') for hand gesture recognition. Make sure to have this model file ready and specify its correct path in the code.
+Pre-trained Model: You need a pre-trained model file (in this case, 'my_model.h5') for hand gesture recognition. Make sure to have this model file ready and specify its correct path in the code. This file can be optained from training.ipynb
 
 Instructions to Implement:
 Code Setup:
@@ -71,9 +71,7 @@ Open your terminal/command prompt and navigate to the directory containing the P
 
 Run the code using the following command:
 
-bash
-Copy code
-python gesture_recognition.py
+'''python gesture_recognition.py'''
 The script should open your computer's webcam and start recognizing hand gestures in real-time. The recognized gestures will be displayed on the video feed, and the script will terminate when a certain number of "PALM" gestures are detected or when you press the 'q' key.
 
 Customization:
