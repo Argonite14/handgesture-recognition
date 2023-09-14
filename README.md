@@ -71,7 +71,8 @@ Open your terminal/command prompt and navigate to the directory containing the P
 
 Run the code using the following command:
 
-'''python gesture_recognition.py'''
+```python gesture_recognition.py```
+
 The script should open your computer's webcam and start recognizing hand gestures in real-time. The recognized gestures will be displayed on the video feed, and the script will terminate when a certain number of "PALM" gestures are detected or when you press the 'q' key.
 
 Customization:
