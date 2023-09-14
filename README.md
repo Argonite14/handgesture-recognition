@@ -47,16 +47,22 @@ The Hand Gesture Recognition System using CNN and OpenCV opens up exciting possi
 
 
 Requirements:
-Python: You need Python installed on your system. You can download Python from the official website: Python Downloads.
+- Python: You need Python installed on your system. You can download Python from the official website: Python Downloads.
 
-Python Libraries: You will need several Python libraries, including TensorFlow, Keras, OpenCV, cvzone, Pillow (PIL), and NumPy. You can install them using pip, Python's package manager. Open your terminal/command prompt and run:
+- Python Libraries: You will need several Python libraries, including TensorFlow, Keras, OpenCV, cvzone, Pillow (PIL), and NumPy. You can install them using pip, Python's package manager. Open your terminal/command prompt and run:
 
 
 ```pip install tensorflow keras opencv-python-headless pillow numpy matplotlib pandas scikit-learn```
 
 If you encounter any issues while installing these libraries, you might need to install additional dependencies based on your operating system.
 
-Pre-trained Model: You need a pre-trained model file (in this case, 'my_model.h5') for hand gesture recognition. Make sure to have this model file ready and specify its correct path in the code. This file can be optained from training.ipynb
+- Pre-trained Model: You need a pre-trained model file (in this case, 'my_model.h5') for hand gesture recognition. Make sure to have this model file ready and specify its correct path in the code. This file can be optained from training.ipynb
+- Training Data: You need a training dataset of hand gesture images organized into classes. Based on your code, it seems that you have organized the training data in the following directory structure:
+basedata/train (with subdirectories for each class)
+- Testing Data: Similarly, you need a testing dataset of hand gesture images for evaluation.
+
+
+basedata/test
 
 Instructions to Implement:
 Code Setup:
