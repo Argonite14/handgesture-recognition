@@ -52,7 +52,7 @@ Python: You need Python installed on your system. You can download Python from t
 Python Libraries: You will need several Python libraries, including TensorFlow, Keras, OpenCV, cvzone, Pillow (PIL), and NumPy. You can install them using pip, Python's package manager. Open your terminal/command prompt and run:
 
 
-'''pip install tensorflow keras opencv-python-headless pillow numpy'''
+```pip install tensorflow keras opencv-python-headless pillow numpy```
 
 If you encounter any issues while installing these libraries, you might need to install additional dependencies based on your operating system.
 
