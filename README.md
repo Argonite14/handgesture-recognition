@@ -59,10 +59,7 @@ If you encounter any issues while installing these libraries, you might need to 
 - Pre-trained Model: You need a pre-trained model file (in this case, 'my_model.h5') for hand gesture recognition. Make sure to have this model file ready and specify its correct path in the code. This file can be optained from training.ipynb
 - Training Data: You need a training dataset of hand gesture images organized into classes. Based on your code, it seems that you have organized the training data in the following directory structure:
 basedata/train (with subdirectories for each class)
-- Testing Data: Similarly, you need a testing dataset of hand gesture images for evaluation.
-
-
-basedata/test
+- Testing Data: Similarly, you need a testing dataset of hand gesture images for evaluation. 'basedata/test'
 
 Instructions to Implement:
 Code Setup:
